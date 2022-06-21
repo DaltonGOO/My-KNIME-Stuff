@@ -1,0 +1,10 @@
+name: get_revit_data # Will be concatenated with the group_id to an ID
+author: Dalton
+env_yml_path: <path/to/the/conda_env.yml> #C:/Users/dalto/OneDrive/Documents/GitHub/My-KNIME-Stuff/Custom nodes/ConnectRevit/conda_env.yml # This is necessary for bundling, but not needed during development
+extension_module: my_extension # The .py Python module containing the nodes of your extension
+description: Gets data from Revit # Human readable bundle name / description
+long_description: This extension grabs specific data from Revit.
+group_id: revit.data
+version: 0.1.0 # Version of this Python node extension
+vendor: Dalton
+license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
