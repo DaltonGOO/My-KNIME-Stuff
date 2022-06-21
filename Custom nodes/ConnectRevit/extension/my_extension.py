@@ -3,7 +3,7 @@ import knime_extension as knext
 LOGGER = logging.getLogger(__name__)
 
 
-@knext.node(name="Get Revit Data", node_type=knext.NodeType.SOURCE, icon_path="icon.png", category="/")
+@knext.node(name="Get Revit Data", node_type=knext.NodeType.LEARNER, icon_path="icon.png", category="/")
 @knext.input_table(name="Input Data", description="We read data from here")
 @knext.input_table(name="Tutorial: Input Data 2", description="We also read data from here") ### Tutorial step 11: Uncomment to create a new input port
 @knext.output_table(name="Output Data", description="Whatever the node has produced")
